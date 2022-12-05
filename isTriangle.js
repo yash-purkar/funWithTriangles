@@ -12,7 +12,13 @@ function sumOfAngles(angle1, angle2, angle3) {
 
 function isTriangle() {
   const sum = sumOfAngles(Number(inputs[0].value), Number(inputs[1].value), Number(inputs[2].value));
-  console.log(sum);
+
+  if (sum === 180) {
+    outputBox.innerText = "Yayy! Its Forms a Triangle🤩"
+  }
+  else {
+    outputBox.innerText = "Ohh! Its not Forms a Triangle🤪"
+  }
 }
 
 button.addEventListener("click", isTriangle);
