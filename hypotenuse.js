@@ -16,7 +16,7 @@ function calculateHypo() {
     outputBox.innerText = "Hypoteneus " + hypotenuse;
   }
   else {
-    outputBox.innerText = "Pleasefill all the fields first."
+    outputBox.innerText = "Please fill all the fields first."
   }
 }
 

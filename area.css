@@ -1,5 +1,16 @@
+* {
+  letter-spacing: 1.5px;
+}
 body {
   text-align: center;
+}
+h1 {
+  color: #8a2be2;
+  margin: 30px;
+}
+
+label {
+  font-size: 18px;
 }
 .container {
   width: 600px;
@@ -8,18 +19,7 @@ body {
   flex-direction: column;
 }
 
-h1 {
-  color: #8a2be2;
-}
-
-input {
-  max-width: 200px;
-  align-self: center;
-  margin-top: 5px;
-  margin-bottom: 30px;
-}
-
-#isTriangle-btn {
+#calculateBtn {
   align-self: center;
   width: fit-content;
   background-color: #8a2be2;
@@ -28,17 +28,17 @@ input {
   letter-spacing: 1.5px;
   border: 1px solid #fff;
   padding: 5px 16px;
+  margin: 20px;
 }
 
-#isTriangle-btn:hover {
-  cursor: pointer;
-  background-color: #fff;
-  color: #8a2be2;
-  border: 1px solid #8a2be2;
+input {
+  align-self: center;
+  margin: 10px;
+  max-width: 200px;
+  padding: 8px;
+  margin-bottom: 50px;
 }
 
 #outputBox {
-  margin-top: 20px;
-  letter-spacing: 1px;
   font-size: 22px;
 }

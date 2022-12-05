@@ -1,25 +1,33 @@
 body {
   text-align: center;
 }
-.container {
-  width: 600px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-}
 
 h1 {
   color: #8a2be2;
 }
 
-input {
-  max-width: 200px;
-  align-self: center;
-  margin-top: 5px;
+.question_container {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   margin-bottom: 30px;
+  border: 1px solid #8a2be2;
+  padding: 10px;
+  border-radius: 1rem;
 }
 
-#isTriangle-btn {
+p {
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+label {
+  display: inline-block;
+}
+
+#submit-btn {
   align-self: center;
   width: fit-content;
   background-color: #8a2be2;
@@ -30,15 +38,16 @@ input {
   padding: 5px 16px;
 }
 
-#isTriangle-btn:hover {
+#submit-btn:hover {
   cursor: pointer;
   background-color: #fff;
   color: #8a2be2;
   border: 1px solid #8a2be2;
 }
 
-#outputBox {
-  margin-top: 20px;
+#output {
+  margin-top: 10px;
   letter-spacing: 1px;
   font-size: 22px;
+  margin-bottom: 100px;
 }
