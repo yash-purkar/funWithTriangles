@@ -2,9 +2,6 @@ const sides = document.querySelectorAll(".side-input");
 const calculateBtn = document.querySelector("#calculate");
 const outputBox = document.querySelector("#output");
 
-
-
-
 function sumOfSquares(a, b) {
   let sum = a * a + b * b;
   return sum;
