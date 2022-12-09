@@ -34,12 +34,10 @@ function calculateScore() {
   }
   if (ansGiven === 5) {
     outputBox.innerText = `You Scored: 
-     ${score}`;
+     ${score}/5`;
     outputBox.style.color = "green";
   }
-  // else {
-  //   outputBox.innerText = `😟ohhh You Scored: ${score}`
-  // }
+
 }
 
 submitBtn.addEventListener("click", calculateScore);
