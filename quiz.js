@@ -6,6 +6,7 @@ const outputBox = document.querySelector("#output");
 const answers = ["750sqft", "true", "7", "90°", "right angle"];
 
 function calculateScore() {
+
   let score = 0;
   let indexOfAns = 0;
   const formData = new FormData(quizForm);

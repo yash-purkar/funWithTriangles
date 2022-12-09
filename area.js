@@ -22,7 +22,8 @@ function calculateArea() {
       let mul = calculateMult(Number(base.value), Number(height.value));
       let area = mul / 2;
       // console.log(area);
-      outputBox.innerText = `Area of a triangle is ${area.toFixed(2)}`
+      outputBox.innerText = `Area of a triangle is ${area.toFixed(2)}`;
+      outputBox.style.color = "green"
     }
   }
   else {
