@@ -27,6 +27,7 @@ function calculateArea() {
   }
   else {
     outputBox.innerText = "Plzz fill the all fields first."
+    outputBox.style.color = "red";
   }
 
 }
